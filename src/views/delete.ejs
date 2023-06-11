@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borrado de Producto</title>
+</head>
+<body>
+   
+    <h1>Estas seguro que queres borrar el siguiente Producto:<%= Product.articulo %> <%= Product.modelo%></h1>
+    <form action="/products/delete/ <%= Product.id %>?_method=PUT" method="POST">
+
+        <br>
+        <button class="botonBorrar" type="submit">Borrar Producto</button>
+
+        <a href="/products/<%= Product.id%>">Listado de Productos</a>
+    </form>
+</body>
+</html>

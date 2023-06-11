@@ -7,9 +7,9 @@ router.get('/products/:id', productsController.detail)
  router.get("/products/add",productsController.add )
  router.post("/products/create", productsController.create)
 router.get('/products/edit/:id', productsController.edit);
-// router.put("/movies/update/:id", moviesController.update)
-// router.get("/movies/delete/:id", moviesController.delete)
-// router.put("/movies/delete/:id", moviesController.destroy)
+router.put("/products/update/:id", productsController.update)
+router.get("/products/delete/:id", productsController.delete)
+router.put("/products/delete/:id", productsController.destroy)
 
 
 module.exports = router;
