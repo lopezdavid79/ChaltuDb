@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chaltu Bags   Inicio </title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        rel="stylesheet" />
+        <script src="https://kit.fontawesome.com/997049d577.js" crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" href="../css/styles.css">
+
+</head>
+<body>
+    
+    <header class = "top-header"> 
+        <a href="#main">ir al contenido principal </a>
+        <div class = "logoybarra">
+        <img src="../images/logo_chaltu_bags.jpg" class = "logo"  alt="logo">
+        <h1>
+            CHALTU Bags
+        </h1>
+        
+        <div class="form" action="#" method="GET" role="search">
+            <div class="input">Buscar mochilas, Riñoneras y más<i class="fa fa-search"></i></div>
+          </i>
+        </div>
+        <h2>
+            <div class="compraencuotas"> <i class="fa-solid fa-hand-holding-dollar"></i> Comprá en cuotas y con tarjeta de crédito de todos los bancos</div>
+        </h2>
+        </div>
+
+           
+    <%- include("./partial/navbar") -%>
+</header>
+
+
+    <main>
+    <section id="main">
+        <h3>Novedades</h3>
+        <div class = "listado">
+            <article>
+                <img src="../images/riñonera_ala.jpg" alt="Riñonera Ala">
+                <div class="main-article">
+                    <p class="precio">$4.770</p>
+                    <i class="fas fa-truck"></i>                
+                <h4 class="descripcion">Riñonera Ala, combina con tu día a día para hacer trámites y también para irte de viaje o paseo,¡Es súper resistente y amplia! </h4>
+            </div>            
+            </article>
+
+            <article>
+                <img src="../images/img_Mochila30lts.jpg" alt="mochila pampa">
+                <div class="main-article"></div>                
+                <p class="precio">$16.000</p>                    
+            <i class="fas fa-truck"></i>
+                    <h4 class="descripcion">la Mochila Pampa 30lts, es comoda y espaciosa, ideal para personas aventureras </h4>
+                </div>
+            </article>
+
+            <article>
+                <img src="../images/img_Neceser.jpg" alt="neceser  ligera">
+                <div class="main-article">
+                    <p class="precio">$5.500</p>                    
+                <i class="fas fa-truck"></i>
+                    <h4 class="descripcion">el neceser ligera de Ecocuero, con interior estamojado, tenes espacio para todo lo que quieras guardar !! </h4>
+                </div>
+            </article>
+
+            <article>
+                <img src="../images/img_mini_bags.jpg" alt="mini bags piedra">
+                <div class="main-article">
+                    <p class="precio">$23.200</p>
+                    
+                    <i class="fas fa-truck"></i>
+                    <h4 class="descripcion">El mini bags piedra es ideal para llevar tus objetos personales   </h4>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section>
+        <h3 Ofertas class= "ofertas">Ofertas</h3>
+        <div class = "listado">
+            <article>
+                <img src="../images/img_Botinero_teo.jpg" alt="Botinero Teo" class="product_img">
+                <div class="main-article">
+                    <p class="precio">$6.770</p>
+                    <p class="descuento">40% off</p>
+                    <i class="fas fa-truck"></i>
+                    <h4 class="descripcion">Botinero Teo, cuenta con bolsillo frontal</h4>
+                </div>
+            </article>
+
+            <article>
+                <img src="../images/img_Mochila_Aguila.webp" alt="Mochila Aguila">
+                <div class="main-article">
+                    <p class="precio">$25.000</p>
+                    <p class="descuento">20% off</p>
+                    <i class="fas fa-truck"></i>
+                    <h4 class="descripcion">La Mochila Aguila </h4>
+                </div>
+            </article>
+
+            <article>
+                <img src="../images/img_riñonera_toro.jpg" alt="Riñonera Toro">
+                <div class="main-article">
+                    <p class="precio"> $4.500</p>
+                    <p class="descuento">10% off</p>
+                    <i class="fas fa-truck"></i>
+                    <h4 class="descripcion">La Riñonera Toro</h4>
+                </div>
+            </article>
+
+            <article>
+                <img src="../images/img_Mochila_Athix.webp" alt="Mochila Athix">
+                <div class="main-article">
+                    <p class="precio">$23.200</p>
+                    <p class="descuento">5% off</p>
+                    <i class="fas fa-truck"></i>
+                    <h4 class="descripcion">La Mochila Athix</h4>
+                </div>
+            </article>
+        </div>  
+        
+    </section>
+</main>
+<!-- footer -->
+<%- include('./partial/footer') -%>
+</body>
+</html>
